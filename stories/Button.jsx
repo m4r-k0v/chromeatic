@@ -8,19 +8,7 @@ import './button.css';
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-      <>
-          NEW change
-          To account for the inconvenience caused by this situation falling on the weekend, your compensation will consist of the following components:
-          Your daily salary will be paid out at a rate of 150%.
-          <ul>
-              <li>You will receive a fixed amount of 500 euros.</li>
-              <li>Any trip expenses incurred will be fully compensated.</li>
-              <li>We appreciate your flexibility and dedication in addressing this urgent matter. Rest assured that your commitment will be recognized and appropriately rewarded.
-              </li>
-          </ul>
-
-          Thank you for your understanding.
-      </>
+      <button>Hello FE guild</button>
   );
 };
 
